@@ -3,6 +3,7 @@
   --green: #4EE343;
   --black: #272727;
   --gray: #E5E5E5;
+  --darkgray: #cccccc;
 }
 
 html {
@@ -124,6 +125,11 @@ a, a:visited{
   border-radius: 3px;
   font-size: 20px;
   background-color: var(--gray);
+}
+
+.item:hover {
+  font-size: 25px;
+  background-color: var(--darkgray);
 }
 
 .item1{
