@@ -119,10 +119,16 @@ a, a:visited{
 
 .item {
   display: grid;
-  justify-content: center;
-  align-items: center;
+  justify-content: center!important;
+  align-items: center!important;
   border: 5px solid rgba(0, 0, 0, 0.03);
   border-radius: 3px;
+  font-size: 20px;
+  background-color: var(--gray);
+  height: 100%;
+}
+
+a, {
   font-size: 20px;
   background-color: var(--gray);
 }
