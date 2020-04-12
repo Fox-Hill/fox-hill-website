@@ -52,8 +52,8 @@ h1{
   }
 
 a, a:visited{
-  color: var(--black);
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
 }
 
 .outer_container{
